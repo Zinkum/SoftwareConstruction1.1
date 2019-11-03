@@ -46,13 +46,6 @@ void display()
 	glVertex2f(-0.6, -0.6);
 	glEnd();
 
-	glColor3f(1, 1, 0);
-	glBegin(GL_LINE_LOOP);
-	glVertex2f(0, 0.4);
-	glVertex2f(0.6, -0.6);
-	glVertex2f(-0.6, -0.6);
-	glEnd();
-
 	glFlush();
 }
 
